@@ -1,0 +1,75 @@
+/* OtpVerify.css */
+
+.otp-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 35px 25px;
+  border-radius: 16px;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.otp-container h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.otp-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #555;
+  text-align: left;
+}
+
+.otp-input {
+  padding: 12px 16px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+/* Spinner buttons removed */
+.otp-input::-webkit-outer-spin-button,
+.otp-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp-input {
+  -moz-appearance: textfield;
+}
+
+.otp-input:focus {
+  border-color: #4caf50;
+}
+
+.verify-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.verify-btn:hover {
+  background-color: #43a047;
+  transform: scale(1.03);
+}
+
+.success-message {
+  margin-top: 20px;
+  color: #2e7d32;
+  font-weight: 600;
+  font-size: 16px;
+}
