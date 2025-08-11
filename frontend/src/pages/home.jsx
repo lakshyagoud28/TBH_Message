@@ -37,7 +37,7 @@ function Home() {
     e.preventDefault();
 
     try {
-      const url = "http://localhost:5000/auth/home";
+      const url = "https://tbh-message.onrender.com";
       const response = await fetch(url, {
         method: "post",
         headers: {
