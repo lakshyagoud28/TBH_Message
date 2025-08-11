@@ -20,7 +20,7 @@ function OtpVerify(props) {
       return handelerror("enter otp first");
     }
     try {
-      const url = "http://localhost:5000/auth/otpverification";
+      const url = "https://tbh-message.onrender.com";
       const response = await fetch(url, {
         method: "post",
         headers: {
